@@ -544,6 +544,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
 .ml-32 {
   margin-left: 8rem;
 }
@@ -560,24 +568,105 @@ video {
   margin-top: 1rem;
 }
 
-.ml-3 {
-  margin-left: 0.75rem;
+.h-20 {
+  height: 5rem;
+}
+
+.h-\[1000px\] {
+  height: 1000px;
+}
+
+.h-\[2000px\] {
+  height: 2000px;
+}
+
+.h-\[700px\] {
+  height: 700px;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-\[px\] {
+  width: px;
 }
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+.bg-\[url\(image\/kucing\.jpeg\)\] {
+  background-image: url(image/kucing.jpeg);
+}
+
+.bg-\[url\(image\/sawah\.jpeg\)\] {
+  background-image: url(image/sawah.jpeg);
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-kucing {
+  background-image: url("../public/image/kucing.jpeg");
+}
+
+.bg-sawah {
+  background-image: url("../public/image/sawah.jpg");
+}
+
+.from-green-500 {
+  --tw-gradient-from: #22c55e var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(34 197 94 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-indigo-700 {
+  --tw-gradient-from: #4338ca var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(67 56 202 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-10\% {
+  --tw-gradient-from-position: 10%;
+}
+
+.via-sky-500 {
+  --tw-gradient-to: rgb(14 165 233 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #0ea5e9 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.via-30\% {
+  --tw-gradient-via-position: 30%;
+}
+
+.to-red-500 {
+  --tw-gradient-to: #ef4444 var(--tw-gradient-to-position);
+}
+
+.to-90\% {
+  --tw-gradient-to-position: 90%;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-local {
+  background-attachment: local;
+}
+
+.bg-left-bottom {
+  background-position: left bottom;
+}
+
 .text-center {
   text-align: center;
-}
-
-.indent-1 {
-  text-indent: 0.25rem;
-}
-
-.indent-6 {
-  text-indent: 1.5rem;
 }
 
 .indent-20 {
@@ -593,19 +682,13 @@ video {
   line-height: 1;
 }
 
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-fadgham {
+  font-size: 30px;
 }
 
 .font-thin {
@@ -631,12 +714,4 @@ video {
 
 .underline-offset-4 {
   text-underline-offset: 4px;
-}
-
-.underline-offset-8 {
-  text-underline-offset: 8px;
-}
-
-.underline-offset-auto {
-  text-underline-offset: auto;
 }
