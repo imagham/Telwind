@@ -8,6 +8,7 @@ module.exports = {
       },
       fontSize:{
         'fadgham':'30px',
+         '22':'22px'
       },
       backgroundImage :{
         kucing:'url("../public/image/kucing.jpeg")',
