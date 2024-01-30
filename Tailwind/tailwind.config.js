@@ -12,8 +12,9 @@ module.exports = {
       },
       backgroundImage :{
         kucing:'url("../public/image/kucing.jpeg")',
-        sawah:'url("../public/image/sawah.jpg")'
-      }
+        sawah:'url("../public/image/sawah.jpg")',
+        ustadz:'url("../public/image/ustadz.jpg")'
+      }   
     },
   },
   plugins: [],
