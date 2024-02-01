@@ -13,7 +13,8 @@ module.exports = {
       backgroundImage :{
         kucing:'url("../public/image/kucing.jpeg")',
         sawah:'url("../public/image/sawah.jpg")',
-        ustadz:'url("../public/image/ustadz.jpg")'
+        ustadz:'url("../public/image/ustadz.jpg")',
+        biru :'url("../public/image/biru.jpeg")',
       }   
     },
   },
