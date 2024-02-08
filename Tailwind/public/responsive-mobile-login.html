@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f4d8226812.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div
+      class="w-[400px] h-[520px] border-4 border-slate-400 mx-auto mt-20 text-center rounded-lg md:w-[450px] md:h-[550px] shadow-lg shadow-slate-200"
+    >
+      <h1 class="mt-10 text-4xl font-semibold md:text-4xl text-blue-600">
+        Log in
+        <div class="text-sm text-black mt-1">Mohon isi dengan lengkap</div>
+      </h1>
+      <label class="block justify-center mt-14">
+        <span class="block text-[16px] font-medium text-slate-700 mr-[260px]"
+          >email</span
+        >
+        <input
+          type="email"
+          class="peer px-4 w-[280px] h-[35px] border-2 border-slate-400 mx-auto mt-2 rounded-lg placeholder:italic md:w-[300px] md:h-[40px]"
+          placeholder="ketik email kamu"
+        />
+        <p
+          class="mt-2 invisible peer-invalid:visible text-red-500 text-sm mr-[76px]"
+        >
+          Please provide a valid email address.
+        </p>
+      </label>
+      <label class="block justify-center">
+        <span class="block text-[16px] font-medium text-slate-700 mr-[243px]"
+          >Pasword</span
+        >
+        <input
+          type="password"
+          class="peer px-4 w-[280px] h-[35px] border-2 border-slate-400 mx-auto mt-2 rounded-lg placeholder:italic md:w-[300px] md:h-[40px]"
+          placeholder="buat password kamu"
+        />
+        <p class="mt-2 invisible peer-invalid:visible text-red-500 text-sm">
+          Please provide a valid email address.
+        </p>
+      </label>
+      <span class="flex justify-center items-center">
+        <h1 class="border-2 w-full border-slate-600 ml-32"></h1>
+        <h1 class="p-1">or</h1>
+        <h1 class="w-full border-2 border-slate-600 mr-32"></h1>
+      </span>
+      <div class="mx-auto mt-3 md:mt-5">
+        <i class="fa-brands fa-google fa-xl"></i>
+        <i class="fa-brands fa-facebook fa-xl ml-5"></i>
+        <i class="fa-brands fa-vk fa-xl ml-5"></i>
+      </div>
+      <button
+        class="w-[280px] h-[35px] bg-blue-600 mt-[35px] rounded-lg text-white font-medium hover:bg-blue-400 md:w-[300px] md:h-[40px] md:mt-12"
+      >
+        Daftar
+      </button>
+    </div>
+  </body>
+</html>

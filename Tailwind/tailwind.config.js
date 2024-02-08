@@ -15,6 +15,8 @@ module.exports = {
         sawah:'url("../public/image/sawah.jpg")',
         ustadz:'url("../public/image/ustadz.jpg")',
         biru :'url("../public/image/biru.jpeg")',
+        roti :'url("../public/image/roti.jpg")',
+
       }   
     },
   },
