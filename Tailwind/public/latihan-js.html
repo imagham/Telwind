@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header >
+        <div class="mx-auto h-20 w-full bg-slate-100/95 bg-cover bg-center border-b-4 border-slate-200 dark:bg-slate-700 dark:border-slate-600">
+            <div class="flex h-full w-90% items-center ml-[20px] backdrop-blur-lg  mx-auto">
+                <div class="flex h-14 w-20 backdrop-blur-l items-center justify-center bg-blue-500 rounded-lg dark:bg-slate-800 ">logo     </div>
+                <a href="responsive-mobile-login.html">
+                <div class="flex h-14 w-20 backdrop-blur-l items-center justify-center bg-blue-500  rounded-lg ml-[133px] md:ml-[473px] lg:ml-[725px] dark:bg-blue-700">Log in      </div>
+                </a>
+                <a href="responsive-mobile-daftar.html">
+                <div class="flex h-14 w-20 backdrop-blur-l items-center justify-center bg-blue-500 rounded-lg ml-4 dark:bg-blue-700 ">Daftar     </div>
+                </a>
+            </div>
+        </div>
+    </header>
+    <img src="image/roti.jpg" alt="">
+
+    <div class="flex items-center justify-center gap-1 mt-10">
+        <!-- svg matahari, ambil code nya di hero-icon -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="text-yellow-500 dark:stroke-2 dark:text-slate-400  h-6 w-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
+          />
+        </svg>
+        <button class="h-5 w-10 rounded-full bg-slate-500 p-0.5">
+          <div class="h-4 w-4 rounded-full bg-white dark:translate-x-5"></div>
+        </button>
+              <!-- svg bulan, ambil code nya di hero-icon -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="text-slate-300 dark:stroke-2 dark:stroke-blue-600 h-6 w-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
+          />
+        </svg>
+      </div>
+      
+<h1 class="text-xl font-semibold text-center mt-10 md:text-[30px]">
+    ~ Content ~
+</h1>
+<div class="grid grid-cols-2 *:w-[180px] *:h-[240px] *:border-2 *:border-slate-400 *:shadow-lg *:shadow-slate-300 *:mt-5 *:mx-auto *:rounded-lg *:text-center  md:grid-cols-3 md:*:w-[230px] md:*:h-[280px] lg:grid-cols-4 lg:*:w-[235px] lg:*:h-[285px] *:dark:border-slate-300 *:dark:shadow-slate-5  00 ">
+    <div><div class="bg-roti w-full h-32 bg-contain bg-no-repeat md:w-full md:h-40 rounded-lg "></div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, fugit. </div>
+    <div><div class="bg-roti w-full h-32 bg-contain bg-no-repeat md:w-full md:h-40 rounded-lg "></div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, fugit. </div>
+    <div><div class="bg-roti w-full h-32 bg-contain bg-no-repeat md:w-full md:h-40 rounded-lg "></div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, fugit. </div>
+    <div><div class="bg-roti w-full h-32 bg-contain bg-no-repeat md:w-full md:h-40 rounded-lg "></div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, fugit. </div>
+    <div><div class="bg-roti w-full h-32 bg-contain bg-no-repeat md:w-full md:h-40 rounded-lg "></div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, fugit. </div>
+    <div><div class="bg-roti w-full h-32 bg-contain bg-no-repeat md:w-full md:h-40 rounded-lg "></div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, fugit. </div>
+    <div><div class="bg-roti w-full h-32 bg-contain bg-no-repeat md:w-full md:h-40 rounded-lg "></div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, fugit. </div>
+    <div><div class="bg-roti w-full h-32 bg-contain bg-no-repeat md:w-full md:h-40 rounded-lg "></div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, fugit. </div>
+</div>
+</body>
+<script>
+    alert('selamat datang di website kami');
+    </script>
+     <script>
+        function toDT() {
+          if (localStorage.getItem("theme") === "dark") {
+            localStorage.setItem("theme", "light");
+            document.documentElement.classList.remove("dark");
+          } else {
+            localStorage.setItem("theme", "dark");
+            document.documentElement.classList.add("dark");
+          }
+        }
+        document.querySelector("button").addEventListener("click", toDT);
+        if (localStorage.getItem("theme") === "dark") {
+          document.documentElement.classList.add("dark");
+        }
+      </script>
+</html>
