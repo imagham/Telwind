@@ -2372,6 +2372,11 @@ video {
   transition-duration: 150ms;
 }
 
+.\*\:mx-6 > * {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .\*\:mx-auto > * {
   margin-left: auto;
   margin-right: auto;
@@ -2385,41 +2390,6 @@ video {
 .\*\:my-\[42px\] > * {
   margin-top: 42px;
   margin-bottom: 42px;
-}
-
-.\*\:mx-\[\] > * {
-  margin-left: ;
-  margin-right: ;
-}
-
-.\*\:mx-5 > * {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
-.\*\:mx-8 > * {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.\*\:mx-6 > * {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
-.\*\:mx-\[50px\] > * {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.\*\:mx-\[60px\] > * {
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-.\*\:mx-\[55px\] > * {
-  margin-left: 55px;
-  margin-right: 55px;
 }
 
 .\*\:mb-10 > * {
@@ -3329,21 +3299,6 @@ video {
 
 @media (min-width: 1024px) {
   @media (min-width: 768px) {
-    .lg\:md\:mx-10 {
-      margin-left: 2.5rem;
-      margin-right: 2.5rem;
-    }
-
-    .lg\:md\:mx-1 {
-      margin-left: 0.25rem;
-      margin-right: 0.25rem;
-    }
-
-    .\*\:lg\:md\:mx-32 > * {
-      margin-left: 8rem;
-      margin-right: 8rem;
-    }
-
     .\*\:lg\:md\:mx-10 > * {
       margin-left: 2.5rem;
       margin-right: 2.5rem;
@@ -3558,16 +3513,12 @@ video {
     width: 100%;
   }
 
-  .lg\:max-w-\[60px\] {
-    max-width: 60px;
-  }
-
-  .lg\:max-w-\[110px\] {
-    max-width: 110px;
-  }
-
   .lg\:max-w-\[130px\] {
     max-width: 130px;
+  }
+
+  .lg\:max-w-\[60px\] {
+    max-width: 60px;
   }
 
   .lg\:grid-cols-3 {
@@ -3614,6 +3565,10 @@ video {
     line-height: 1;
   }
 
+  .lg\:text-\[13px\] {
+    font-size: 13px;
+  }
+
   .lg\:text-\[14px\] {
     font-size: 14px;
   }
@@ -3636,22 +3591,6 @@ video {
 
   .lg\:text-\[60px\] {
     font-size: 60px;
-  }
-
-  .lg\:text-\[23px\] {
-    font-size: 23px;
-  }
-
-  .lg\:text-\[13px\] {
-    font-size: 13px;
-  }
-
-  .lg\:text-\[\] {
-    color: ;
-  }
-
-  .lg\:text-\[2\] {
-    color: 2;
   }
 
   .lg\:\*\:mx-auto > * {
@@ -3698,38 +3637,6 @@ video {
   .lg\:\*\:bg-slate-300 > * {
     --tw-bg-opacity: 1;
     background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-  }
-
-  .lg\:\*\:text-\[13px\] > * {
-    font-size: 13px;
-  }
-
-  .lg\:\*\:text-\[12px\] > * {
-    font-size: 12px;
-  }
-
-  .lg\:\*\:text-\[111px\] > * {
-    font-size: 111px;
-  }
-
-  .lg\:\*\:text-\[1px\] > * {
-    font-size: 1px;
-  }
-
-  .\*\:lg\:text-\[1px\] > * {
-    font-size: 1px;
-  }
-
-  .\*\:lg\:text-\[111px\] > * {
-    font-size: 111px;
-  }
-
-  .lg\:\*\:text-\[\] > * {
-    color: ;
-  }
-
-  .lg\:\*\:text-\[1\] > * {
-    color: 1;
   }
 
   .lg\:hover\:text-white:hover {
