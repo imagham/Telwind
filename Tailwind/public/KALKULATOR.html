@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body class="bg-slate-300">
+ 
+<section class="w-1/3  bg-slate-100 shadow-lg mx-auto px-5 mt-20 rounded-lg">
+    <h1 class="text-center text-[40px] font-bold pt-10">Kalkulator  Sederhana</h1>
+    <input class="mt-5 py-[6px] pl-3 pr-[180px] rounded-md" type="number" id="input1" placeholder="Masukkan angka pertama">
+    <input class="mt-4 py-[6px] pl-3 pr-[180px] rounded-md" type="number" id="input2" placeholder="Masukkan angka kedua">
+    <div class="space-y-3  text-center mt-5">
+        <button  onclick="tambah()"  class="bg-blue-500 text-white py-[4px] px-14 rounded-md active:bg-blue-300 " type="button">
+            Tambah
+        </button>
+        <button onclick="kali()" class="bg-blue-500 text-white py-[4px] px-[72px] rounded-md ml-3 active:bg-blue-300" type="button">
+            Kali
+        </button>
+        <button onclick="bagi()" class="bg-blue-500 text-white py-[4px] px-[66px] rounded-md  active:bg-blue-300" type="button">
+            Bagi
+        </button>
+        <button onclick="kurang()" class="bg-blue-500 text-white py-[4px] px-14 rounded-md ml-3 active:bg-blue-300" type="button">
+            Kurang
+        </button>
+        <button onclick="reload()" class="bg-red-500 text-white py-[4px] px-14 rounded-md ml-3 active:bg-red-300" type="button">
+            Reload
+        </button>
+        <h2 class="mt-10 text-[24px] underline font-semibold">HASIL</h2>
+        <div class="pb-5 text-[24px]" id="hasil"></div>
+    </div>
+</section>
+<script>
+    function tambah() {
+           var input1 = document.getElementById('input1').value
+           var convertInput1= +input1
+           var input2 = document.getElementById('input2').value
+           var convertInput2= +input2
+           var hasilTambah =convertInput1+convertInput2
+           console.log(hasilTambah);
+           const liElement = document.createElement('p');
+            liElement.textContent = hasilTambah;
+            const divElement = document.getElementById('hasil');
+            divElement.appendChild(liElement);
+          
+        }
+    function kali() {
+           var input1 = document.getElementById('input1').value
+           var convertInput1= +input1
+           var input2 = document.getElementById('input2').value
+           var convertInput2= +input2
+           var hasilTambah =convertInput1*convertInput2
+           console.log(hasilTambah);
+           const liElement = document.createElement('p');
+            liElement.textContent = hasilTambah;
+            const divElement = document.getElementById('hasil');
+            divElement.appendChild(liElement);
+          
+        }
+    function bagi() {
+           var input1 = document.getElementById('input1').value
+           var convertInput1= +input1
+           var input2 = document.getElementById('input2').value
+           var convertInput2= +input2
+           var hasilTambah =convertInput1/convertInput2
+           console.log(hasilTambah);
+           const liElement = document.createElement('p');
+            liElement.textContent = hasilTambah;
+            const divElement = document.getElementById('hasil');
+            divElement.appendChild(liElement);
+          
+        } 
+        function kurang() {
+           var input1 = document.getElementById('input1').value
+           var convertInput1= +input1
+           var input2 = document.getElementById('input2').value
+           var convertInput2= +input2
+           var hasilTambah =convertInput1-convertInput2
+           console.log(hasilTambah);
+           const liElement = document.createElement('p');
+            liElement.textContent = hasilTambah;
+            const divElement = document.getElementById('hasil');
+            divElement.appendChild(liElement);
+          
+        }
+        function reload() {
+            location.reload()
+        }               
+</script>
+</body>
+</html>
